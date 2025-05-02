@@ -1,4 +1,4 @@
-- hosts: nodeofansible
+- hosts: webservers
   become: true
   tasks:
   - name: Create a file
